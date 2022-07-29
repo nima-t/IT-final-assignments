@@ -1,0 +1,85 @@
+
+    #menulist {
+        list-style: none;
+    }
+
+    body {
+        background-color: #00BFFF;
+    }
+
+    .container {
+        position: absolute;
+        width: 93%;
+        height: 93%;
+        left: 42px;
+        top: 24px;
+    }
+
+    .topbar {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 79.17%;
+        background: #CCAA66;
+    }
+
+    .bottombar {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 79.17%;
+        bottom: 0%;
+        background: #CCAA66;
+    }
+
+    .menu {
+        position: absolute;
+        left: 0%;
+        right: 83.68%;
+        top: 20.83%;
+        bottom: 20.83%;
+
+        background: #E8D882;
+    }
+
+    .content {
+        position: absolute;
+        left: 16.32%;
+        right: 0%;
+        top: 20.83%;
+        bottom: 20.83%;
+
+        background: #F1E8B0;
+    }
+
+    #toptext {
+        font-weight: 300;
+        font-size: 60px;
+
+        color: #330000 ;
+
+    }
+
+    #bottomtext {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    #bottomtext2 {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        color: #0057FF;
+    }
+    #contenttext{
+        margin-left: 2%;
+        color: #330000 ;
+        font-size: 20px;
+    }

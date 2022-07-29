@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+   <button onmouseover="mOver()" id="diplay">
+    Mouse Over Me Please
+   </button> <br> <br>
+   <button onmouseout="mOut()" id="diplay">
+    Mouse Out Over Me
+   </button> <br>
+   <div id="container" style="font-weight:bold;font-size:x-large"></div><br>
+   <div id="container2" style="font-weight:bold;font-size:x-large"></div>
+   <script>
+    function mOver(){        
+       var s="Thank You";
+       document.getElementById("container").innerHTML=s;
+    }
+    function mOut(){        
+       var s="Mouse Out";
+       document.getElementById("container2").innerHTML=s;
+    }
+   </script>
+</body>
+</html>

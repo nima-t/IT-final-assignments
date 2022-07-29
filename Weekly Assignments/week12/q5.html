@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>User Register form</h2>
+
+<p>Username:</p>
+<input id="usr">
+
+<p>Password:</p>
+<input id="pass" placeholder="Password" type="password">
+
+<p>Confirm Password:</p>
+<input id="pass2" placeholder="Confirm Password" type="password">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  
+  let x = document.getElementById("usr").value;
+  let p1 = document.getElementById("pass").value;
+  let p2 = document.getElementById("pass2").value;
+   
+  let text;
+  if (x=="") {
+    text = "User name not valid";
+  } else {
+     if(p1==p2){
+        text="User Register Successful"
+     }else{
+        text="Password Not Valid"
+     }
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
